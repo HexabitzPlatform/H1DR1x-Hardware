@@ -4032,7 +4032,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="231.14" y1="18.288" x2="231.14" y2="22.86" width="0.1524" layer="205"/>
 <text x="242.6462" y="6.1722" size="1.9304" layer="100" font="vector">www.hexabitz.com</text>
 <text x="195.7578" y="6.1214" size="1.9304" layer="101" font="vector" align="center">Amir Tabbakh</text>
-<text x="22.86" y="193.04" size="3.81" layer="94">VDD=3v3</text>
+<text x="22.86" y="193.04" size="1.778" layer="94">VDD=3v3</text>
 </plain>
 <instances>
 <instance part="C1" gate="G$1" x="224.79" y="113.03" smashed="yes">
@@ -13006,7 +13006,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="242.6462" y="6.1722" size="1.9304" layer="100" font="vector">www.hexabitz.com</text>
 <text x="194.4878" y="11.2014" size="1.9304" layer="101" font="vector" align="center">RS485 Serial Transceiver</text>
 <text x="194.4878" y="6.1214" size="1.9304" layer="101" font="vector" align="center">Amir Tabbakh</text>
-<text x="35.56" y="187.96" size="3.81" layer="94">VDD=3v3</text>
+<text x="35.56" y="187.96" size="1.778" layer="94">VDD=3v3</text>
 <text x="232.41" y="130.81" size="1.778" layer="94">TA = D-
 TB = D+</text>
 </plain>
