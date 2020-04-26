@@ -365,7 +365,7 @@
 <smd name="7" x="2.475" y="0.635" dx="1.97" dy="0.59" layer="1" roundness="25"/>
 <smd name="8" x="2.475" y="1.905" dx="1.97" dy="0.59" layer="1" roundness="25"/>
 </package>
-<package name="1X05/90" urn="urn:adsk.eagle:footprint:22355/1">
+<package name="1X05/90" urn="urn:adsk.eagle:footprint:22355/1" locally_modified="yes">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-6.35" y1="-1.905" x2="-3.81" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="-3.81" y1="-1.905" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
@@ -405,6 +405,36 @@
 <rectangle x1="-0.381" y1="-2.921" x2="0.381" y2="-1.905" layer="21"/>
 <rectangle x1="2.159" y1="-2.921" x2="2.921" y2="-1.905" layer="21"/>
 <rectangle x1="4.699" y1="-2.921" x2="5.461" y2="-1.905" layer="21"/>
+</package>
+<package name="F_1X05">
+<wire x1="-6.35" y1="-0.915" x2="-3.81" y2="-0.915" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-0.915" x2="-3.81" y2="7.585" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="7.585" x2="-6.35" y2="7.585" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="7.585" x2="-6.35" y2="-0.915" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-0.915" x2="-1.27" y2="-0.915" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.915" x2="-1.27" y2="7.585" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="7.585" x2="-3.81" y2="7.585" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.915" x2="1.27" y2="-0.915" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.915" x2="1.27" y2="7.585" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="7.585" x2="-1.27" y2="7.585" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.915" x2="3.81" y2="-0.915" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-0.915" x2="3.81" y2="7.585" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="7.585" x2="1.27" y2="7.585" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-0.915" x2="6.35" y2="-0.915" width="0.1524" layer="21"/>
+<wire x1="6.35" y1="-0.915" x2="6.35" y2="7.585" width="0.1524" layer="21"/>
+<wire x1="6.35" y1="7.585" x2="3.81" y2="7.585" width="0.1524" layer="21"/>
+<pad name="1" x="-5.08" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="0" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="5" x="5.08" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<text x="-6.985" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="8.255" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-5.461" y1="-1.931" x2="-4.699" y2="-0.915" layer="21"/>
+<rectangle x1="-2.921" y1="-1.931" x2="-2.159" y2="-0.915" layer="21"/>
+<rectangle x1="-0.381" y1="-1.931" x2="0.381" y2="-0.915" layer="21"/>
+<rectangle x1="2.159" y1="-1.931" x2="2.921" y2="-0.915" layer="21"/>
+<rectangle x1="4.699" y1="-1.931" x2="5.461" y2="-0.915" layer="21"/>
 </package>
 </packages>
 <packages3d>
@@ -943,7 +973,8 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 </devices>
 </deviceset>
 <deviceset name="PINHD-1X5" prefix="JP" uservalue="yes">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;
+Female right angle</description>
 <gates>
 <gate name="A" symbol="PINHD5" x="0" y="0"/>
 </gates>
@@ -963,6 +994,18 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <technology name="">
 <attribute name="POPULARITY" value="9" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="" package="F_1X05">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+<connect gate="A" pin="5" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -13062,9 +13105,9 @@ TB = D+</text>
 <instance part="GND16" gate="1" x="234.95" y="55.88" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="237.49" y="53.34" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="JP1" gate="A" x="243.84" y="69.85" smashed="yes" rot="MR180">
-<attribute name="NAME" x="237.49" y="61.595" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="237.49" y="80.01" size="1.778" layer="96" rot="MR180"/>
+<instance part="JP1" gate="A" x="243.84" y="69.85" smashed="yes">
+<attribute name="NAME" x="237.49" y="78.105" size="1.778" layer="95"/>
+<attribute name="VALUE" x="237.49" y="59.69" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -13112,7 +13155,7 @@ TB = D+</text>
 <wire x1="241.3" y1="64.77" x2="234.95" y2="64.77" width="0.1524" layer="91"/>
 <wire x1="234.95" y1="64.77" x2="234.95" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="1" pin="GND"/>
-<pinref part="JP1" gate="A" pin="1"/>
+<pinref part="JP1" gate="A" pin="5"/>
 </segment>
 </net>
 <net name="UART1_TX" class="0">
@@ -13163,7 +13206,7 @@ TB = D+</text>
 <segment>
 <wire x1="241.3" y1="74.93" x2="232.41" y2="74.93" width="0.1524" layer="91"/>
 <label x="234.95" y="74.93" size="1.778" layer="95" rot="MR0"/>
-<pinref part="JP1" gate="A" pin="5"/>
+<pinref part="JP1" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="TA" class="0">
@@ -13184,7 +13227,7 @@ TB = D+</text>
 <segment>
 <wire x1="241.3" y1="72.39" x2="232.41" y2="72.39" width="0.1524" layer="91"/>
 <label x="234.95" y="72.39" size="1.778" layer="95" rot="MR0"/>
-<pinref part="JP1" gate="A" pin="4"/>
+<pinref part="JP1" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="N$2" class="0">
