@@ -4051,7 +4051,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="215.7222" y="14.7066" size="1.9304" layer="100" font="vector">Revision</text>
 <text x="215.9" y="5.3848" size="1.9304" layer="100" font="vector">Sheet   of</text>
 <text x="199.4662" y="19.6342" size="1.9304" layer="100" font="vector">Title</text>
-<text x="180.9242" y="19.6342" size="1.9304" layer="102" font="vector">H1DR11</text>
+<text x="180.9242" y="19.6342" size="1.9304" layer="102" font="vector">H1DR1</text>
 <text x="191.9478" y="11.2014" size="1.9304" layer="101" font="vector" align="center">RS485 Serial Transceiver</text>
 <text x="206.3242" y="19.6342" size="1.9304" layer="101" font="vector">H1DR11_Backend</text>
 <wire x1="168.91" y1="3.81" x2="168.91" y2="8.128" width="0.1524" layer="205"/>
@@ -13025,7 +13025,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="215.7222" y="14.7066" size="1.9304" layer="100" font="vector">Revision</text>
 <text x="215.9" y="5.3848" size="1.9304" layer="100" font="vector">Sheet   of</text>
 <text x="199.4662" y="19.6342" size="1.9304" layer="100" font="vector">Title</text>
-<text x="180.9242" y="19.6342" size="1.9304" layer="102" font="vector">H1DR11</text>
+<text x="180.9242" y="19.6342" size="1.9304" layer="102" font="vector">H1DR1</text>
 <text x="206.3242" y="19.6342" size="1.9304" layer="101" font="vector">H1DR11_Frontend</text>
 <wire x1="168.91" y1="3.81" x2="168.91" y2="8.128" width="0.1524" layer="205"/>
 <wire x1="168.91" y1="8.128" x2="168.91" y2="18.288" width="0.1524" layer="205"/>
