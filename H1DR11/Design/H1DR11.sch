@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.0">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1712,7 +1712,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="OCTOPART_URL" value="https://octopart.com/vlmy1300-gs08-vishay-21709204?r=sp"/>
 </part>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP1" library="Hexabitz" deviceset="PINHD-1X5" device="/90" package3d_urn="urn:adsk.eagle:package:22467/2"/>
+<part name="JP1" library="Hexabitz" deviceset="PINHD-1X5" device="/90" package3d_urn="urn:adsk.eagle:package:22467/2">
+<attribute name="DESCRIPTION" value="Conn Header R/a 5POS 2.54MM MALE"/>
+<attribute name="MFN" value="Sullins"/>
+<attribute name="MPN" value="PEC05SBAN"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/pec05sban-sullins-264498?r=sp"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -13102,12 +13107,16 @@ TB = D+</text>
 <attribute name="NAME" x="205.74" y="117.0686" size="1.778" layer="95"/>
 <attribute name="VALUE" x="204.47" y="110.998" size="1.778" layer="96"/>
 </instance>
-<instance part="GND16" gate="1" x="234.95" y="55.88" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="237.49" y="53.34" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND16" gate="1" x="49.53" y="33.02" smashed="yes">
+<attribute name="VALUE" x="46.99" y="30.48" size="1.778" layer="96"/>
 </instance>
-<instance part="JP1" gate="A" x="243.84" y="69.85" smashed="yes">
-<attribute name="NAME" x="237.49" y="78.105" size="1.778" layer="95"/>
-<attribute name="VALUE" x="237.49" y="59.69" size="1.778" layer="96"/>
+<instance part="JP1" gate="A" x="40.64" y="46.99" smashed="yes" rot="MR0">
+<attribute name="NAME" x="46.99" y="55.245" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="46.99" y="36.83" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DESCRIPTION" x="40.64" y="46.99" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MFN" x="40.64" y="46.99" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="40.64" y="46.99" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="OCTOPART_URL" x="40.64" y="46.99" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -13152,8 +13161,8 @@ TB = D+</text>
 <wire x1="111.76" y1="88.9" x2="111.76" y2="90.17" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="241.3" y1="64.77" x2="234.95" y2="64.77" width="0.1524" layer="91"/>
-<wire x1="234.95" y1="64.77" x2="234.95" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="41.91" x2="49.53" y2="41.91" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="41.91" x2="49.53" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 <pinref part="JP1" gate="A" pin="5"/>
 </segment>
@@ -13204,8 +13213,8 @@ TB = D+</text>
 <wire x1="237.49" y1="116.84" x2="229.87" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="241.3" y1="74.93" x2="232.41" y2="74.93" width="0.1524" layer="91"/>
-<label x="234.95" y="74.93" size="1.778" layer="95" rot="MR0"/>
+<wire x1="43.18" y1="52.07" x2="52.07" y2="52.07" width="0.1524" layer="91"/>
+<label x="49.53" y="52.07" size="1.778" layer="95"/>
 <pinref part="JP1" gate="A" pin="1"/>
 </segment>
 </net>
@@ -13225,8 +13234,8 @@ TB = D+</text>
 <label x="234.95" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="241.3" y1="72.39" x2="232.41" y2="72.39" width="0.1524" layer="91"/>
-<label x="234.95" y="72.39" size="1.778" layer="95" rot="MR0"/>
+<wire x1="43.18" y1="49.53" x2="52.07" y2="49.53" width="0.1524" layer="91"/>
+<label x="49.53" y="49.53" size="1.778" layer="95"/>
 <pinref part="JP1" gate="A" pin="2"/>
 </segment>
 </net>

@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-05-28T02:09:57Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 0.22,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "H1DR1x-AT"
+        },
+        "Owner": "Amir Tabbakh <amir.tabbakh.m.e@gmail.com>",
+        "Size": {
+            "X": 34.64,
+            "Y": 30
+        }
+    }
+}
