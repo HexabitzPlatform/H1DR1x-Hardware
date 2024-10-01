@@ -2265,7 +2265,7 @@ design rules under a new name.</description>
 <attribute name="CAPACITANCE" value="1.00uF" x="9.525" y="11.938" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFN" value="Yageo" x="9.525" y="11.938" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="CC0805KKX7R7BB105" x="9.525" y="11.938" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="11.684" y="12.573" size="1.016" layer="26" rot="MR270"/>
+<attribute name="NAME" x="6.477" y="11.811" size="1.016" layer="26" rot="MR270"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/cc0805kkx7r7bb105-yageo-8376555?r=sp&amp;s=YKl1wwtkROau_X5nniH2ig" x="9.525" y="11.938" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TOLERANCE" value="10%" x="9.525" y="11.938" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="6.985" y="10.668" size="1.27" layer="28" rot="MR90"/>
@@ -2287,14 +2287,14 @@ design rules under a new name.</description>
 <element name="X1" library="Hexabitz" package="XTALL_CSTCE8M00G52" value="XTALL_CSTCE8M00G52" x="7.286525" y="15.543021875" smashed="yes" rot="MR0">
 <attribute name="MFN" value="Murata" x="7.286525" y="15.543021875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="CSTCE8M00G52Z-R0" x="7.286525" y="15.543021875" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="6.818121875" y="17.7428875" size="1.016" layer="26" rot="MR90"/>
+<attribute name="NAME" x="7.326121875" y="17.4888875" size="1.016" layer="26" rot="MR90"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/cstce8m00g52z-r0-murata-17755941?r=sp&amp;s=JDnNJnrHQhyS8Zk4ofFWXw" x="7.286525" y="15.543021875" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="10.080525" y="11.987021875" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R3" library="Hexabitz" package="R-0603" value="10.0K" x="0.889" y="20.828" smashed="yes" rot="MR270">
 <attribute name="MFN" value="Yageo" x="0.889" y="20.828" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="RC0603JR-0710KL" x="0.889" y="20.828" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="-0.110234375" y="21.59685" size="1.016" layer="26" rot="MR270"/>
+<attribute name="NAME" x="0.143765625" y="20.96185" size="1.016" layer="26" rot="MR270"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/search?q=RC0603JR-0710KL&amp;start=0" x="0.889" y="20.828" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="RESISTANCE" value="10.0K Ohm" x="0.889" y="20.828" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="0.889" y="20.828" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -2324,7 +2324,7 @@ design rules under a new name.</description>
 <attribute name="CAPACITANCE" value="10nF" x="7.239" y="11.938" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFN" value="KEMET" x="7.239" y="11.938" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="C0603C103K5RACTU" x="7.239" y="11.938" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="6.35" y="11.303" size="1.016" layer="26" rot="MR270" align="bottom-right"/>
+<attribute name="NAME" x="5.207" y="10.414" size="1.016" layer="26" rot="MR270" align="bottom-right"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/c0603c103k5ractu-kemet-133094?r=sp&amp;s=R_iPBxLnSmGqhkU2rIMFpg" x="7.239" y="11.938" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TOLERANCE" value="10%" x="7.239" y="11.938" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="5.334" y="11.303" size="1.27" layer="28" rot="MR90"/>
@@ -2354,7 +2354,7 @@ design rules under a new name.</description>
 <attribute name="CAPACITANCE" value="100nF" x="3.429" y="20.32" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFN" value="KEMET" x="3.429" y="20.32" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="C0603C104K8RACTU" x="3.429" y="20.32" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="4.099621875" y="21.01778125" size="1.016" layer="26" rot="MR0"/>
+<attribute name="NAME" x="4.861621875" y="21.01778125" size="1.016" layer="26" rot="MR0"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/c0603c104k8ractu-kemet-145075?r=sp&amp;s=9bS9ASSwSEqMCE9KBEQZ0g" x="3.429" y="20.32" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TOLERANCE" value="10%" x="3.429" y="20.32" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="4.064" y="18.415" size="1.27" layer="28" rot="MR0"/>
@@ -2537,7 +2537,7 @@ design rules under a new name.</description>
 <contactref element="P1" pad="PAD_PD10"/>
 <contactref element="P1" pad="PAD_PD11"/>
 <contactref element="P1" pad="PAD_PD12"/>
-<polygon width="0.1524" layer="16" thermals="no">
+<polygon width="0.1016" layer="16" isolate="0.1016" thermals="no">
 <vertex x="-8.583675" y="0.0627375"/>
 <vertex x="8.736075" y="0.0627375"/>
 <vertex x="17.39620625" y="15.0622"/>
@@ -2609,7 +2609,7 @@ design rules under a new name.</description>
 <contactref element="P1" pad="PAD_PU10"/>
 <contactref element="P1" pad="PAD_PU11"/>
 <contactref element="P1" pad="PAD_PU12"/>
-<polygon width="0.1524" layer="1" thermals="no">
+<polygon width="0.1016" layer="1" isolate="0.1016" thermals="no">
 <vertex x="-8.583675" y="0.0627375"/>
 <vertex x="8.736075" y="0.0627375"/>
 <vertex x="17.39620625" y="15.0622"/>
@@ -2888,13 +2888,15 @@ design rules under a new name.</description>
 <wire x1="-3.40390625" y1="16.2821" x2="-5.1583875" y2="16.2821" width="0.254" layer="16"/>
 <wire x1="-5.1583875" y1="16.2821" x2="-6.017071875" y2="15.423415625" width="0.254" layer="16"/>
 <contactref element="R6" pad="1"/>
-<wire x1="-6.025415625" y1="15.423415625" x2="-5.34723125" y2="16.1016" width="0.254" layer="1"/>
-<wire x1="-5.34723125" y1="16.1016" x2="-3.07283125" y2="18.376" width="0.254" layer="1"/>
+<wire x1="-6.025415625" y1="15.423415625" x2="-5.390415625" y2="16.058415625" width="0.254" layer="1"/>
+<wire x1="-5.390415625" y1="16.058415625" x2="-3.07283125" y2="18.376" width="0.254" layer="1"/>
 <wire x1="-3.07283125" y1="18.376" x2="-1.651" y2="18.376" width="0.254" layer="1"/>
 <wire x1="5.588" y1="12.5745" x2="6.858" y2="12.5745" width="0.254" layer="1"/>
 <wire x1="5.588" y1="12.5745" x2="5.588" y2="13.44443125" width="0.254" layer="1"/>
 <wire x1="5.588" y1="13.44443125" x2="4.93953125" y2="14.0929" width="0.254" layer="1"/>
-<wire x1="-4.06631875" y1="16.1016" x2="-5.34723125" y2="16.1016" width="0.254" layer="1"/>
+<wire x1="-4.06631875" y1="16.1016" x2="-4.56968125" y2="16.1016" width="0.254" layer="1"/>
+<wire x1="-4.56968125" y1="16.1016" x2="-4.612865625" y2="16.058415625" width="0.254" layer="1"/>
+<wire x1="-4.612865625" y1="16.058415625" x2="-5.390415625" y2="16.058415625" width="0.254" layer="1"/>
 <wire x1="4.93953125" y1="14.0929" x2="-2.05761875" y2="14.0929" width="0.254" layer="1"/>
 <wire x1="-2.05761875" y1="14.0929" x2="-4.06631875" y2="16.1016" width="0.254" layer="1"/>
 </signal>

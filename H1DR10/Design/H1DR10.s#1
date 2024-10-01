@@ -11809,7 +11809,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </plain>
 <instances>
 <instance part="C11" gate="G$1" x="50.8" y="114.3" smashed="yes" rot="MR0">
-<attribute name="NAME" x="59.309" y="114.935" size="1.778" layer="95" rot="MR0"/>
+<attribute name="NAME" x="56.134" y="114.935" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="59.944" y="111.379" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="C10" gate="G$1" x="39.37" y="113.03" smashed="yes">
