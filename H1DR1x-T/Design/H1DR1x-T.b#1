@@ -1938,22 +1938,6 @@
 <text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 </package>
-<package name="CHIP-LED0805" urn="urn:adsk.eagle:footprint:15672/1" library_version="30">
-<description>&lt;b&gt;Hyper CHIPLED Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
-LB R99A&lt;br&gt;
-Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
-<wire x1="-0.625" y1="0.45" x2="-0.625" y2="-0.45" width="0.1016" layer="51"/>
-<wire x1="0.625" y1="0.45" x2="0.625" y2="-0.475" width="0.1016" layer="51"/>
-<smd name="C" x="0" y="1.05" dx="1.2" dy="1.2" layer="1"/>
-<smd name="A" x="0" y="-1.05" dx="1.2" dy="1.2" layer="1"/>
-<text x="-1.27" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="2.54" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.675" y1="0" x2="-0.525" y2="0.3" layer="21"/>
-<rectangle x1="0.525" y1="0" x2="0.675" y2="0.3" layer="21"/>
-<rectangle x1="-0.15" y1="0" x2="0.15" y2="0.3" layer="21"/>
-<rectangle x1="-0.675" y1="0.45" x2="0.675" y2="1.05" layer="51"/>
-<rectangle x1="-0.675" y1="-1.05" x2="0.675" y2="-0.45" layer="51"/>
-</package>
 </packages>
 <packages3d>
 <package3d name="HEXA-LOGO" urn="urn:adsk.eagle:package:43807249/2" type="empty" library_version="21" library_locally_modified="yes">
@@ -1971,14 +1955,6 @@ Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
 <description>PIN HEADER</description>
 <packageinstances>
 <packageinstance name="1X01"/>
-</packageinstances>
-</package3d>
-<package3d name="CHIP-LED0805" urn="urn:adsk.eagle:package:15818/2" type="model" library_version="30">
-<description>Hyper CHIPLED Hyper-Bright LED
-LB R99A
-Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
-<packageinstances>
-<packageinstance name="CHIP-LED0805"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2738,40 +2714,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-11.077" y="-30.927" size="1" layer="26" rot="MR0"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/cdsod323-t03sc-bourns-10487153?r=sp" x="25.781" y="-65.532" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R8" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" package="R-0603" package3d_urn="urn:adsk.eagle:package:1435818/6" value="270.0R" x="-26.67" y="-20.955" smashed="yes" rot="R90">
-<attribute name="MFN" value="" x="-26.67" y="-20.955" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="-26.67" y="-20.955" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-27.305" y="-21.59" size="1.016" layer="25" rot="R90"/>
-<attribute name="OCTOPART_URL" value="" x="-26.67" y="-20.955" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RESISTANCE" value="" x="-26.67" y="-20.955" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOLERANCE" value="" x="-26.67" y="-20.955" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-24.765" y="-21.59" size="1.016" layer="27" rot="R90"/>
-</element>
-<element name="R9" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" package="R-0603" package3d_urn="urn:adsk.eagle:package:1435818/6" value="270.0R" x="-22.098" y="-20.955" smashed="yes" rot="R90">
-<attribute name="MFN" value="" x="-22.098" y="-20.955" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="-22.098" y="-20.955" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-22.733" y="-21.59" size="1.016" layer="25" rot="R90"/>
-<attribute name="OCTOPART_URL" value="" x="-22.098" y="-20.955" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RESISTANCE" value="" x="-22.098" y="-20.955" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOLERANCE" value="" x="-22.098" y="-20.955" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-20.193" y="-21.59" size="1.016" layer="27" rot="R90"/>
-</element>
-<element name="YELLOW" library="HEXABITZ_USER_INTERFACE_PARTS" library_urn="urn:adsk.eagle:library:20064563" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="-21.463" y="-25.527" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="" x="-21.463" y="-25.527" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFN" value="" x="-21.463" y="-25.527" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="-21.463" y="-25.527" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-20.193" y="-26.797" size="1.27" layer="25" rot="R180"/>
-<attribute name="OCTOPART_URL" value="" x="-21.463" y="-25.527" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-20.193" y="-22.987" size="1.27" layer="27" rot="R180"/>
-</element>
-<element name="ORANGE" library="HEXABITZ_USER_INTERFACE_PARTS" library_urn="urn:adsk.eagle:library:20064563" package="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="" x="-21.463" y="-31.75" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="" x="-21.463" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFN" value="" x="-21.463" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="-21.463" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-20.193" y="-33.02" size="1.27" layer="25" rot="R180"/>
-<attribute name="OCTOPART_URL" value="" x="-21.463" y="-31.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-20.193" y="-29.21" size="1.27" layer="27" rot="R180"/>
-</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -2818,10 +2760,6 @@ design rules under a new name.</description>
 <contactref element="R3" pad="1"/>
 <contactref element="U1" pad="49"/>
 <contactref element="D1" pad="C"/>
-<contactref element="ORANGE" pad="C"/>
-<contactref element="YELLOW" pad="C"/>
-<wire x1="-22.513" y1="-25.527" x2="-22.513" y2="-31.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-11.727" y1="-31.877" x2="-22.513" y2="-25.527" width="0" layer="19" extent="1-16"/>
 <wire x1="-7.405" y1="-31.623" x2="-11.727" y2="-31.877" width="0" layer="19" extent="16-16"/>
 <wire x1="-3.087" y1="-31.623" x2="-7.405" y2="-31.623" width="0" layer="19" extent="16-16"/>
 <wire x1="-12.026" y1="-25.4" x2="-11.727" y2="-31.877" width="0" layer="19" extent="16-16"/>
@@ -2867,10 +2805,26 @@ design rules under a new name.</description>
 <wire x1="6.262" y1="-25.4" x2="-8.1838" y2="0.7522" width="0" layer="19" extent="1-1"/>
 <wire x1="-13.927" y1="-31.877" x2="6.262" y2="-25.4" width="0" layer="19" extent="1-1"/>
 </signal>
+<signal name="UART3_TX">
+<contactref element="P1" pad="PAD_PU4"/>
+<wire x1="-3.938971875" y1="7.872028125" x2="-9.371790625" y2="7.872028125" width="0.254" layer="16"/>
+<wire x1="-9.371790625" y1="7.872028125" x2="-9.625790625" y2="7.618028125" width="0.254" layer="16"/>
+<via x="-9.625790625" y="7.618028125" extent="1-16" drill="0.25" diameter="0.55"/>
+<wire x1="-9.625790625" y1="7.618028125" x2="-11.301028125" y2="7.618028125" width="0.3556" layer="1"/>
+<wire x1="-11.938" y1="8.255" x2="-11.301028125" y2="7.618028125" width="0.254" layer="1"/>
+<wire x1="-12.3138" y1="7.9122" x2="-11.971" y2="8.255" width="0.3556" layer="1"/>
+<wire x1="-11.971" y1="8.255" x2="-11.938" y2="8.255" width="0.3556" layer="1"/>
+</signal>
 <signal name="UART1_TX">
 <contactref element="U2" pad="4"/>
 <contactref element="U1" pad="29"/>
 <wire x1="-3.126" y1="13.8548" x2="8.128" y2="12.5745" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="UART3_RX">
+<contactref element="P1" pad="PAD_PD4"/>
+<wire x1="-12.192" y1="8.509" x2="-4.191" y2="8.509" width="0.254" layer="16"/>
+<wire x1="-12.3138" y1="7.9122" x2="-12.3138" y2="8.3872" width="0.3556" layer="16"/>
+<wire x1="-12.3138" y1="8.3872" x2="-12.192" y2="8.509" width="0.3556" layer="16"/>
 </signal>
 <signal name="UART1_RX">
 <contactref element="U2" pad="1"/>
@@ -2879,7 +2833,54 @@ design rules under a new name.</description>
 <contactref element="U1" pad="32"/>
 <wire x1="-3.126" y1="15.3552" x2="-1.7795" y2="12.9555" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="USART4_TX">
+<signal name="UART5_TX">
+<contactref element="P1" pad="PAD_PU5"/>
+<via x="-7.366" y="22.225" extent="1-16" drill="0.25" diameter="0.55"/>
+<wire x1="-1.6738" y1="18.89320625" x2="-5.00559375" y2="22.225" width="0.254" layer="16"/>
+<wire x1="-5.00559375" y1="22.225" x2="-7.366" y2="22.225" width="0.254" layer="16"/>
+<wire x1="-12.3138" y1="22.2122" x2="-12.301" y2="22.225" width="0.3556" layer="1"/>
+<wire x1="-7.366" y1="22.225" x2="-12.301" y2="22.225" width="0.3556" layer="1"/>
+</signal>
+<signal name="UART5_RX">
+<contactref element="P1" pad="PAD_PD5"/>
+<wire x1="-1.17250625" y1="19.0461625" x2="-1.17250625" y2="18.5135" width="0.254" layer="16"/>
+<wire x1="-1.17250625" y1="19.0461625" x2="-5.05454375" y2="22.9282" width="0.254" layer="16"/>
+<wire x1="-5.05454375" y1="22.9282" x2="-11.6150875" y2="22.9282" width="0.254" layer="16"/>
+<wire x1="-11.6150875" y1="22.9282" x2="-12.3138" y2="22.2294875" width="0.254" layer="16"/>
+<wire x1="-12.3138" y1="22.2122" x2="-12.3138" y2="22.2294875" width="0.254" layer="16"/>
+</signal>
+<signal name="UART2_TX">
+<contactref element="P1" pad="PAD_PU2"/>
+<wire x1="4.445" y1="10.033" x2="5.842" y2="8.636" width="0.254" layer="16"/>
+<wire x1="9.444609375" y1="8.636" x2="9.547878125" y2="8.53273125" width="0.254" layer="16"/>
+<via x="9.547878125" y="8.53273125" extent="1-16" drill="0.25" diameter="0.55"/>
+<wire x1="9.547878125" y1="8.53273125" x2="11.97266875" y2="8.53273125" width="0.3556" layer="1"/>
+<wire x1="5.842" y1="8.636" x2="9.444609375" y2="8.636" width="0.254" layer="16"/>
+<wire x1="11.97266875" y1="8.53273125" x2="12.4662" y2="8.0392" width="0.3556" layer="1"/>
+<wire x1="12.4662" y1="8.0392" x2="12.4662" y2="7.9122" width="0.3556" layer="1"/>
+</signal>
+<signal name="UART6_TX">
+<contactref element="P1" pad="PAD_PU3"/>
+<wire x1="2.3262" y1="2.45784375" x2="2.58093125" y2="2.2031125" width="0.254" layer="16"/>
+<via x="2.58093125" y="2.2031125" extent="1-16" drill="0.25" diameter="0.55"/>
+<wire x1="2.58093125" y1="2.2031125" x2="1.90181875" y2="1.524" width="0.3556" layer="1"/>
+<wire x1="1.90181875" y1="1.524" x2="0.508" y2="1.524" width="0.254" layer="1"/>
+<wire x1="0.508" y1="1.524" x2="0.0762" y2="1.0922" width="0.3556" layer="1"/>
+<wire x1="0.0762" y1="1.0922" x2="0.0762" y2="0.7522" width="0.3556" layer="1"/>
+</signal>
+<signal name="UART2_RX">
+<contactref element="P1" pad="PAD_PD2"/>
+<wire x1="3.9116" y1="9.7376625" x2="5.77413125" y2="7.87513125" width="0.254" layer="16"/>
+<wire x1="5.77413125" y1="7.87513125" x2="10.668" y2="7.87513125" width="0.254" layer="16"/>
+<wire x1="10.668" y1="7.87513125" x2="10.70506875" y2="7.9122" width="0.3556" layer="16"/>
+<wire x1="10.70506875" y1="7.9122" x2="12.4662" y2="7.9122" width="0.3556" layer="16"/>
+</signal>
+<signal name="UART6_RX">
+<contactref element="P1" pad="PAD_PD3"/>
+<wire x1="0.6145" y1="1.2905" x2="1.8262" y2="2.5022" width="0.254" layer="16"/>
+<wire x1="0.0762" y1="0.7522" x2="0.6145" y2="1.2905" width="0.3556" layer="16"/>
+</signal>
+<signal name="UART4_TX">
 <contactref element="P1" pad="PAD_PU1"/>
 <wire x1="10.26373125" y1="9.8046" x2="11.1894" y2="10.73026875" width="0.254" layer="16"/>
 <wire x1="11.1894" y1="10.73026875" x2="11.1894" y2="12.7134" width="0.254" layer="16"/>
@@ -2891,10 +2892,8 @@ design rules under a new name.</description>
 <wire x1="11.684" y1="21.43" x2="12.4662" y2="22.2122" width="0.254" layer="1"/>
 <wire x1="11.1894" y1="12.7134" x2="12.573" y2="14.097" width="0.254" layer="16"/>
 <wire x1="12.573" y1="14.097" x2="12.573" y2="18.669" width="0.254" layer="16"/>
-<contactref element="U1" pad="11"/>
-<wire x1="3.634" y1="12.3544" x2="5.4436" y2="10.80326875" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="USART4_RX">
+<signal name="UART4_RX">
 <contactref element="P1" pad="PAD_PD1"/>
 <wire x1="11.7228" y1="10.56193125" x2="11.7228" y2="12.4848" width="0.254" layer="16"/>
 <wire x1="10.43186875" y1="9.271" x2="11.7228" y2="10.56193125" width="0.254" layer="16"/>
@@ -2903,8 +2902,6 @@ design rules under a new name.</description>
 <wire x1="13.208" y1="21.4704" x2="12.4662" y2="22.2122" width="0.254" layer="16"/>
 <wire x1="11.7228" y1="12.4848" x2="13.208" y2="13.97" width="0.254" layer="16"/>
 <wire x1="13.208" y1="13.97" x2="13.208" y2="21.4704" width="0.254" layer="16"/>
-<contactref element="U1" pad="12"/>
-<wire x1="3.634" y1="11.8543" x2="4.953" y2="10.414" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="UART1_RTS">
 <contactref element="U2" pad="3"/>
@@ -2971,44 +2968,15 @@ design rules under a new name.</description>
 </signal>
 <signal name="USART3_TX">
 <contactref element="U1" pad="22"/>
-<contactref element="P1" pad="PAD_PU4"/>
-<wire x1="-3.938971875" y1="7.872028125" x2="-9.371790625" y2="7.872028125" width="0.254" layer="16"/>
-<wire x1="-9.371790625" y1="7.872028125" x2="-9.625790625" y2="7.618028125" width="0.254" layer="16"/>
-<via x="-9.625790625" y="7.618028125" extent="1-16" drill="0.25" diameter="0.55"/>
-<wire x1="-9.625790625" y1="7.618028125" x2="-11.301028125" y2="7.618028125" width="0.3556" layer="1"/>
-<wire x1="-11.938" y1="8.255" x2="-11.301028125" y2="7.618028125" width="0.254" layer="1"/>
-<wire x1="-12.3138" y1="7.9122" x2="-11.971" y2="8.255" width="0.3556" layer="1"/>
-<wire x1="-11.971" y1="8.255" x2="-11.938" y2="8.255" width="0.3556" layer="1"/>
-<wire x1="-3.938971875" y1="7.872028125" x2="-1.4964" y2="11.225" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="USART3_RX">
 <contactref element="U1" pad="23"/>
-<contactref element="P1" pad="PAD_PD4"/>
-<wire x1="-12.192" y1="8.509" x2="-4.191" y2="8.509" width="0.254" layer="16"/>
-<wire x1="-12.3138" y1="7.9122" x2="-12.3138" y2="8.3872" width="0.3556" layer="16"/>
-<wire x1="-12.3138" y1="8.3872" x2="-12.192" y2="8.509" width="0.3556" layer="16"/>
-<wire x1="-4.191" y1="8.509" x2="-1.9966" y2="11.225" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="USART2_TX">
 <contactref element="U1" pad="13"/>
-<contactref element="P1" pad="PAD_PU2"/>
-<wire x1="4.445" y1="10.033" x2="5.842" y2="8.636" width="0.254" layer="16"/>
-<wire x1="9.444609375" y1="8.636" x2="9.547878125" y2="8.53273125" width="0.254" layer="16"/>
-<via x="9.547878125" y="8.53273125" extent="1-16" drill="0.25" diameter="0.55"/>
-<wire x1="9.547878125" y1="8.53273125" x2="11.97266875" y2="8.53273125" width="0.3556" layer="1"/>
-<wire x1="5.842" y1="8.636" x2="9.444609375" y2="8.636" width="0.254" layer="16"/>
-<wire x1="11.97266875" y1="8.53273125" x2="12.4662" y2="8.0392" width="0.3556" layer="1"/>
-<wire x1="12.4662" y1="8.0392" x2="12.4662" y2="7.9122" width="0.3556" layer="1"/>
-<wire x1="4.445" y1="10.033" x2="3.0047" y2="11.225" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="USART2_RX">
 <contactref element="U1" pad="14"/>
-<contactref element="P1" pad="PAD_PD2"/>
-<wire x1="3.9116" y1="9.7376625" x2="5.77413125" y2="7.87513125" width="0.254" layer="16"/>
-<wire x1="5.77413125" y1="7.87513125" x2="10.668" y2="7.87513125" width="0.254" layer="16"/>
-<wire x1="10.668" y1="7.87513125" x2="10.70506875" y2="7.9122" width="0.3556" layer="16"/>
-<wire x1="10.70506875" y1="7.9122" x2="12.4662" y2="7.9122" width="0.3556" layer="16"/>
-<wire x1="3.9116" y1="9.7376625" x2="2.5046" y2="11.225" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="VDDA">
 <contactref element="U1" pad="6"/>
@@ -3073,71 +3041,31 @@ design rules under a new name.</description>
 </signal>
 <signal name="USART6_TX">
 <contactref element="U1" pad="47"/>
-<contactref element="P1" pad="PAD_PU3"/>
-<wire x1="2.3262" y1="2.45784375" x2="2.58093125" y2="2.2031125" width="0.254" layer="16"/>
-<via x="2.58093125" y="2.2031125" extent="1-16" drill="0.25" diameter="0.55"/>
-<wire x1="2.58093125" y1="2.2031125" x2="1.90181875" y2="1.524" width="0.3556" layer="1"/>
-<wire x1="1.90181875" y1="1.524" x2="0.508" y2="1.524" width="0.254" layer="1"/>
-<wire x1="0.508" y1="1.524" x2="0.0762" y2="1.0922" width="0.3556" layer="1"/>
-<wire x1="0.0762" y1="1.0922" x2="0.0762" y2="0.7522" width="0.3556" layer="1"/>
-<wire x1="2.3262" y1="2.45784375" x2="2.5046" y2="17.985" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="USART6_RX">
 <contactref element="U1" pad="48"/>
-<contactref element="P1" pad="PAD_PD3"/>
-<wire x1="0.6145" y1="1.2905" x2="1.8262" y2="2.5022" width="0.254" layer="16"/>
-<wire x1="0.0762" y1="0.7522" x2="0.6145" y2="1.2905" width="0.3556" layer="16"/>
-<wire x1="1.8262" y1="2.5022" x2="3.0047" y2="17.985" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$3">
 <contactref element="U1" pad="17"/>
 <contactref element="R2" pad="1"/>
 <wire x1="1.0042" y1="11.225" x2="1.612" y2="-31.623" width="0" layer="19" extent="1-1"/>
 </signal>
+<signal name="USART1_RX">
+<contactref element="U1" pad="46"/>
+</signal>
+<signal name="USART1_TX">
+<contactref element="U1" pad="45"/>
+</signal>
 <signal name="USART5_RX">
 <contactref element="U1" pad="20"/>
-<contactref element="P1" pad="PAD_PD5"/>
-<wire x1="-1.17250625" y1="19.0461625" x2="-1.17250625" y2="18.5135" width="0.254" layer="16"/>
-<wire x1="-1.17250625" y1="19.0461625" x2="-5.05454375" y2="22.9282" width="0.254" layer="16"/>
-<wire x1="-5.05454375" y1="22.9282" x2="-11.6150875" y2="22.9282" width="0.254" layer="16"/>
-<wire x1="-11.6150875" y1="22.9282" x2="-12.3138" y2="22.2294875" width="0.254" layer="16"/>
-<wire x1="-12.3138" y1="22.2122" x2="-12.3138" y2="22.2294875" width="0.254" layer="16"/>
-<wire x1="-1.17250625" y1="18.5135" x2="-0.4962" y2="11.225" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="USART5_TX">
 <contactref element="U1" pad="19"/>
-<contactref element="P1" pad="PAD_PU5"/>
-<via x="-7.366" y="22.225" extent="1-16" drill="0.25" diameter="0.55"/>
-<wire x1="-1.6738" y1="18.89320625" x2="-5.00559375" y2="22.225" width="0.254" layer="16"/>
-<wire x1="-5.00559375" y1="22.225" x2="-7.366" y2="22.225" width="0.254" layer="16"/>
-<wire x1="-12.3138" y1="22.2122" x2="-12.301" y2="22.225" width="0.3556" layer="1"/>
-<wire x1="-7.366" y1="22.225" x2="-12.301" y2="22.225" width="0.3556" layer="1"/>
-<wire x1="-1.6738" y1="18.89320625" x2="0.0039" y2="11.225" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$1">
 <contactref element="R2" pad="2"/>
 <contactref element="D1" pad="A"/>
 <wire x1="-10.16" y1="-17.411" x2="-0.088" y2="-31.623" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$9">
-<contactref element="U1" pad="44"/>
-<contactref element="R8" pad="2"/>
-<wire x1="1.0042" y1="17.985" x2="-26.67" y2="-20.105" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="N$11">
-<contactref element="U1" pad="43"/>
-<contactref element="R9" pad="2"/>
-<wire x1="0.5041" y1="17.985" x2="-22.098" y2="-20.105" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="N$12">
-<contactref element="R9" pad="1"/>
-<contactref element="ORANGE" pad="A"/>
-<wire x1="-22.098" y1="-21.805" x2="-20.413" y2="-31.75" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$13">
-<contactref element="R8" pad="1"/>
-<contactref element="YELLOW" pad="A"/>
-<wire x1="-26.67" y1="-21.805" x2="-20.413" y2="-25.527" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
