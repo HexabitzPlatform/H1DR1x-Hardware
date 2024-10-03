@@ -6497,8 +6497,8 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <part name="D5" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="BOURNS_CDSOD323-T03SC" device="BOURNS_CDSOD323-T03SC_0_0" package3d_urn="urn:adsk.eagle:package:20526306/2"/>
 <part name="R8" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0603" device="" package3d_urn="urn:adsk.eagle:package:1435818/6" value="270.0R"/>
 <part name="R9" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0603" device="" package3d_urn="urn:adsk.eagle:package:1435818/6" value="270.0R"/>
-<part name="YELLOW" library="HEXABITZ_USER_INTERFACE_PARTS" library_urn="urn:adsk.eagle:library:20064563" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
-<part name="ORANGE" library="HEXABITZ_USER_INTERFACE_PARTS" library_urn="urn:adsk.eagle:library:20064563" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
+<part name="YLW" library="HEXABITZ_USER_INTERFACE_PARTS" library_urn="urn:adsk.eagle:library:20064563" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
+<part name="ORG" library="HEXABITZ_USER_INTERFACE_PARTS" library_urn="urn:adsk.eagle:library:20064563" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
@@ -6656,11 +6656,11 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <attribute name="NAME" x="225.425" y="165.5064" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="226.06" y="170.307" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="YELLOW" gate="G$1" x="236.22" y="175.26" smashed="yes" rot="R90">
+<instance part="YLW" gate="G$1" x="236.22" y="175.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="240.792" y="178.816" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="240.792" y="180.975" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="ORANGE" gate="G$1" x="236.22" y="167.005" smashed="yes" rot="R90">
+<instance part="ORG" gate="G$1" x="236.22" y="167.005" smashed="yes" rot="R90">
 <attribute name="NAME" x="240.792" y="170.561" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="240.792" y="172.72" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -6777,12 +6777,12 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="ORANGE" gate="G$1" pin="C"/>
+<pinref part="ORG" gate="G$1" pin="C"/>
 <wire x1="244.475" y1="166.37" x2="244.475" y2="167.005" width="0.1524" layer="91"/>
 <wire x1="244.475" y1="167.005" x2="241.3" y2="167.005" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="YELLOW" gate="G$1" pin="C"/>
+<pinref part="YLW" gate="G$1" pin="C"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="241.3" y1="175.26" x2="256.54" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="175.26" x2="256.54" y2="166.37" width="0.1524" layer="91"/>
@@ -6790,26 +6790,26 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 </net>
 <net name="USART4_TX" class="0">
 <segment>
-<pinref part="P1" gate="G$1" pin="SU1"/>
-<wire x1="68.58" y1="172.72" x2="81.28" y2="172.72" width="0.1524" layer="91"/>
-<label x="68.58" y="172.72" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U1" gate="A" pin="PA0"/>
 <wire x1="140.335" y1="162.56" x2="123.825" y2="162.56" width="0.1524" layer="91"/>
 <label x="123.825" y="162.56" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="P1" gate="G$1" pin="SU3"/>
+<wire x1="68.58" y1="162.56" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
+<label x="68.58" y="162.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="USART4_RX" class="0">
-<segment>
-<pinref part="P1" gate="G$1" pin="SD1"/>
-<wire x1="68.58" y1="137.16" x2="81.28" y2="137.16" width="0.1524" layer="91"/>
-<label x="68.58" y="137.16" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U1" gate="A" pin="PA1"/>
 <wire x1="140.335" y1="160.02" x2="123.825" y2="160.02" width="0.1524" layer="91"/>
 <label x="123.825" y="160.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="P1" gate="G$1" pin="SD3"/>
+<wire x1="68.58" y1="127" x2="81.28" y2="127" width="0.1524" layer="91"/>
+<label x="68.58" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USART3_TX" class="0">
@@ -6819,9 +6819,9 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <label x="124.46" y="134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="P1" gate="G$1" pin="SU4"/>
-<wire x1="68.58" y1="157.48" x2="81.28" y2="157.48" width="0.1524" layer="91"/>
-<label x="68.58" y="157.48" size="1.778" layer="95"/>
+<pinref part="P1" gate="G$1" pin="SU5"/>
+<wire x1="68.58" y1="152.4" x2="81.28" y2="152.4" width="0.1524" layer="91"/>
+<label x="68.58" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USART3_RX" class="0">
@@ -6831,9 +6831,9 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <label x="124.46" y="132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="P1" gate="G$1" pin="SD4"/>
-<wire x1="68.58" y1="121.92" x2="81.28" y2="121.92" width="0.1524" layer="91"/>
-<label x="68.58" y="121.92" size="1.778" layer="95"/>
+<pinref part="P1" gate="G$1" pin="SD5"/>
+<wire x1="68.58" y1="116.84" x2="81.28" y2="116.84" width="0.1524" layer="91"/>
+<label x="68.58" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USART2_TX" class="0">
@@ -6989,9 +6989,9 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <label x="213.36" y="182.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="P1" gate="G$1" pin="SU3"/>
-<wire x1="68.58" y1="162.56" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
-<label x="68.58" y="162.56" size="1.778" layer="95"/>
+<pinref part="P1" gate="G$1" pin="SU1"/>
+<wire x1="68.58" y1="172.72" x2="81.28" y2="172.72" width="0.1524" layer="91"/>
+<label x="68.58" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USART6_RX" class="0">
@@ -7001,9 +7001,9 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <pinref part="U1" gate="A" pin="PB9"/>
 </segment>
 <segment>
-<pinref part="P1" gate="G$1" pin="SD3"/>
-<wire x1="68.58" y1="127" x2="81.28" y2="127" width="0.1524" layer="91"/>
-<label x="68.58" y="127" size="1.778" layer="95"/>
+<pinref part="P1" gate="G$1" pin="SD1"/>
+<wire x1="68.58" y1="137.16" x2="81.28" y2="137.16" width="0.1524" layer="91"/>
+<label x="68.58" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -7021,9 +7021,9 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <label x="124.46" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="P1" gate="G$1" pin="SD5"/>
-<wire x1="68.58" y1="116.84" x2="81.28" y2="116.84" width="0.1524" layer="91"/>
-<label x="68.58" y="116.84" size="1.778" layer="95"/>
+<pinref part="P1" gate="G$1" pin="SD4"/>
+<wire x1="68.58" y1="121.92" x2="81.28" y2="121.92" width="0.1524" layer="91"/>
+<label x="68.58" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USART5_TX" class="0">
@@ -7033,9 +7033,9 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <label x="124.46" y="142.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="P1" gate="G$1" pin="SU5"/>
-<wire x1="68.58" y1="152.4" x2="81.28" y2="152.4" width="0.1524" layer="91"/>
-<label x="68.58" y="152.4" size="1.778" layer="95"/>
+<pinref part="P1" gate="G$1" pin="SU4"/>
+<wire x1="68.58" y1="157.48" x2="81.28" y2="157.48" width="0.1524" layer="91"/>
+<label x="68.58" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -7085,14 +7085,14 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <net name="N$12" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="ORANGE" gate="G$1" pin="A"/>
+<pinref part="ORG" gate="G$1" pin="A"/>
 <wire x1="228.6" y1="167.005" x2="233.68" y2="167.005" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="YELLOW" gate="G$1" pin="A"/>
+<pinref part="YLW" gate="G$1" pin="A"/>
 <wire x1="228.6" y1="175.26" x2="233.68" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
