@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2024-10-03T09:11:34Z",
+        "CreationDate": "2024-10-03T10:06:38Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -15,7 +15,7 @@
         "Name": {
             "ProjectId": "H1DR1x-T"
         },
-        "Owner": "Anas kaadan <anas.kaadan@outlook.com>",
+        "Owner": "  <>",
         "Size": {
             "X": 34.64,
             "Y": 30

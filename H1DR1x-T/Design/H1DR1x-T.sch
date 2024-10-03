@@ -6497,8 +6497,8 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <part name="D5" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="BOURNS_CDSOD323-T03SC" device="BOURNS_CDSOD323-T03SC_0_0" package3d_urn="urn:adsk.eagle:package:20526306/2"/>
 <part name="R8" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0603" device="" package3d_urn="urn:adsk.eagle:package:1435818/6" value="270.0R"/>
 <part name="R9" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0603" device="" package3d_urn="urn:adsk.eagle:package:1435818/6" value="270.0R"/>
-<part name="YLW" library="HEXABITZ_USER_INTERFACE_PARTS" library_urn="urn:adsk.eagle:library:20064563" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
-<part name="ORG" library="HEXABITZ_USER_INTERFACE_PARTS" library_urn="urn:adsk.eagle:library:20064563" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
+<part name="D2" library="HEXABITZ_USER_INTERFACE_PARTS" library_urn="urn:adsk.eagle:library:20064563" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="Yellow"/>
+<part name="D3" library="HEXABITZ_USER_INTERFACE_PARTS" library_urn="urn:adsk.eagle:library:20064563" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="Orange"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
@@ -6652,23 +6652,23 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <attribute name="NAME" x="225.425" y="173.7614" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="226.06" y="178.562" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R9" gate="G$1" x="223.52" y="167.005" smashed="yes" rot="R180">
-<attribute name="NAME" x="225.425" y="165.5064" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="226.06" y="170.307" size="1.778" layer="96" rot="R180"/>
+<instance part="R9" gate="G$1" x="223.52" y="165.735" smashed="yes" rot="R180">
+<attribute name="NAME" x="225.425" y="164.2364" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="226.06" y="169.037" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="YLW" gate="G$1" x="236.22" y="175.26" smashed="yes" rot="R90">
+<instance part="D2" gate="G$1" x="236.22" y="175.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="240.792" y="178.816" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="240.792" y="180.975" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="ORG" gate="G$1" x="236.22" y="167.005" smashed="yes" rot="R90">
-<attribute name="NAME" x="240.792" y="170.561" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="240.792" y="172.72" size="1.778" layer="96" rot="R180"/>
+<instance part="D3" gate="G$1" x="236.22" y="165.735" smashed="yes" rot="R90">
+<attribute name="NAME" x="240.792" y="169.291" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="240.792" y="171.45" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND4" gate="1" x="244.475" y="163.83" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="247.015" y="161.29" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND4" gate="1" x="244.475" y="161.29" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="247.015" y="158.75" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="GND7" gate="1" x="256.54" y="163.83" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="259.08" y="161.29" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND7" gate="1" x="256.54" y="161.29" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="259.08" y="158.75" size="1.778" layer="96" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -6777,15 +6777,15 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="ORG" gate="G$1" pin="C"/>
-<wire x1="244.475" y1="166.37" x2="244.475" y2="167.005" width="0.1524" layer="91"/>
-<wire x1="244.475" y1="167.005" x2="241.3" y2="167.005" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="244.475" y1="163.83" x2="244.475" y2="165.735" width="0.1524" layer="91"/>
+<wire x1="244.475" y1="165.735" x2="241.3" y2="165.735" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="YLW" gate="G$1" pin="C"/>
+<pinref part="D2" gate="G$1" pin="C"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="241.3" y1="175.26" x2="256.54" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="175.26" x2="256.54" y2="166.37" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="175.26" x2="256.54" y2="163.83" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USART4_TX" class="0">
@@ -7077,22 +7077,22 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <segment>
 <pinref part="U1" gate="A" pin="PB4"/>
 <wire x1="211.455" y1="172.72" x2="215.265" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="215.265" y1="172.72" x2="215.265" y2="167.005" width="0.1524" layer="91"/>
+<wire x1="215.265" y1="172.72" x2="215.265" y2="165.735" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="215.265" y1="167.005" x2="218.44" y2="167.005" width="0.1524" layer="91"/>
+<wire x1="215.265" y1="165.735" x2="218.44" y2="165.735" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="ORG" gate="G$1" pin="A"/>
-<wire x1="228.6" y1="167.005" x2="233.68" y2="167.005" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="228.6" y1="165.735" x2="233.68" y2="165.735" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="YLW" gate="G$1" pin="A"/>
+<pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="228.6" y1="175.26" x2="233.68" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
